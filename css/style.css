@@ -44,6 +44,15 @@ header {
     font-size: 18px;
 }
 
+.fechar {
+    display: none;
+
+}
+
+.btn_menu {
+    display: none;
+}
+
 /* MAIN */
 
 main {
@@ -249,7 +258,6 @@ footer {
     height: 82px;
     width: 100%;
     background-color: #F9003D;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,57 +276,92 @@ footer span {
     .container {
         width: 80vw;
     }
+
+    .nav_header {
+        display: none;
+        height: 300px;
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: black;
+        justify-content: space-evenly;
+    }
+    
+    .fechar {
+        display: unset;
+    }
+
+    .container_header {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .btn_menu {
+        display: inline-block;
+    }
+
+    .btn_menu i {
+        color: white;
+        font-size: 30px;
+    }
+
     .container_banner {
         display: flex;
         justify-content: center;
         height: 600px;
     }
+
     .fundo_banner {
         height: 601px;
         width: 100%;
         object-fit: cover;
     }
+
     .box_conteudo_banner {
         left: 0%;
         align-items: center;
     }
+
     h1 {
         width: 90%;
         font-size: 60px;
         text-align: center;
     }
+
     .linha {
         width: 90%;
         margin: 30px 0px;
     }
-    
+
     .box_conteudo_banner {
         top: 120px;
     }
-    
+
     .box_conteudo_banner span {
         font-size: 35px;
         margin-top: 0%;
     }
-    
+
     .box_conteudo_banner img {
         width: 45px;
         margin-top: 35px;
     }
-    
+
     .container_sobre {
         height: auto;
     }
-    
+
     .container_sobre h2 {
         font-size: 3.4em;
         margin: 50px 0;
     }
-    
+
     .img_box_sobre {
         width: 80vw;
     }
-    
+
     .box_sobre {
         flex-direction: column;
     }
@@ -363,7 +406,6 @@ footer span {
         width: 80vw;
         height: unset;
         padding: 60px 40px;
-
     }
 
     .img_mapa {
@@ -376,12 +418,10 @@ footer span {
         margin-left: 0px;
         width: 435px;
     }
-
+    
     footer span {
         width: 80vw;
-        text-align: center ;
-
+        text-align: center;
     }
 
-    
 }
